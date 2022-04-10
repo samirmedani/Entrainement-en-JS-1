@@ -1,15 +1,25 @@
+
 body {
-  background-color: #242331; 
-  color: red;
+  background-color:#242331; 
+  color: white;
+}
+
+.container-burger {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.inactive {
+  display: none;
 }
 
 
-h1 {
-  color: blue;
-}
-
-
-form {
+/* formulaire.html/js */
+.voiture {
   display: flex;
   flex-direction: column;
   width: 50%;
